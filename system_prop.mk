@@ -47,7 +47,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=ssss \
     persist.rmnet.data.enable=true \
     persist.vendor.radio.5g_mode_pref=1 \
-    telephony.lteOnCdmaDevice=1
+    telephony.lteOnCdmaDevice=1 \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
